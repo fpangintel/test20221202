@@ -19,7 +19,7 @@ jobs:
       with:
         repo-token: '${{ secrets.GITHUB_TOKEN }}'
         days-before-stale: 1 #default 120
-        days-before-delete: 1 #default 180
+        days-before-delete: 2 #default 180
         comment-updates: false
         max-issues: 20
         tag-committer: false
